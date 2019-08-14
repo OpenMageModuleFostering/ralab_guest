@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Adds the ability convert all guest users into registered customers. ",
+    "description": "Adds the ability convert guest users into registered customers. ",
     "authors": [
     {
         "name": "Kalpesh Balar",

@@ -13,6 +13,7 @@ class Ralab_Guest_Model_Observer
 {
     public function registerGuestUser($observer)
     {
+        Mage::log(__METHOD__);
         if (!Mage::getSingleton('guest/config')->isEnabled()) {
             return;
         }
@@ -37,7 +38,7 @@ class Ralab_Guest_Model_Observer
                 ->setLastname($lastname)
                 ->setEmail($email)
                 ->setPassword($randomPassword)
-                ->setConfirmation($randomPassword);
+                ->setConfirmation($randomPassword)
                 ->setPasswordConfirmation($randomPassword);
 
             $errors = array();
@@ -57,5 +58,6 @@ class Ralab_Guest_Model_Observer
                 Mage::log($errors);
             }
         }
+        return true;
     }
 }

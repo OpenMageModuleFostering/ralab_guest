@@ -1,26 +1,30 @@
 <?xml version="1.0"?>
 <package>
     <name>Ralab_Guest</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>Adds the ability convert all guest users into registered customers. </summary>
-    <description>Features Overview&#xD;
+    <summary>Adds the ability convert guest users into registered customers. </summary>
+    <description>&lt;p&gt;Auto Register Guest User is the free and easy to use solution for Magento which enables merchants to automatically register a guest user.&lt;/p&gt;&#xD;
 &#xD;
-- Ability to automatically convert guest users into registered users.&#xD;
+&lt;p&gt;Features at a glance:&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Ability to automatically convert guest users into registered users.&lt;/li&gt;&#xD;
+&lt;li&gt;This extension auto-generates password for the new guest users and sends welcome email to these users&lt;/li&gt;&#xD;
+&lt;li&gt;Supports Paypal Express Checkout&lt;/li&gt;&#xD;
+&lt;li&gt;Developer Friendly&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
 &#xD;
-- This extension auto-generates password for the new guest users and sends welcome email to these users&#xD;
+&lt;p&gt;If you have any questions or feedback, please let me know on kalpeshbalar@gmail.com&lt;/p&gt;</description>
+    <notes>Ability to automatically convert guest users into registered users.&#xD;
 &#xD;
-</description>
-    <notes>- Ability to automatically convert guest users into registered users.&#xD;
-&#xD;
-- Added feature to auto-generates password for the new guest users and sends welcome email to these users</notes>
+Added feature to auto-generates password for the new guest users and sends welcome email to these users.</notes>
     <authors><author><name>Kalpesh Balar</name><user>kalpeshbalar</user><email>kalpeshbalar@gmail.com</email></author></authors>
-    <date>2015-04-09</date>
-    <time>10:55:50</time>
-    <contents><target name="magecommunity"><dir name="Ralab"><dir name="Guest"><dir name="Helper"><file name="Data.php" hash="16b0e4fd585dbdfb24b0b61b1991d7a4"/></dir><dir name="Model"><file name="Config.php" hash="61ed3d30d3825c060e1169ceceef46c9"/><file name="Observer.php" hash="9496a05ad83df344f613a2d5b410aaef"/></dir><dir name="etc"><file name="config.xml" hash="24704c1c4e5ae10abe259f8f59590b78"/><file name="system.xml" hash="a72ce5512f3d87da4a0517438b8be2da"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ralab_Guest.xml" hash="ee56818ba74d61f7833f601bdf25a741"/></dir></target></contents>
+    <date>2015-04-10</date>
+    <time>12:23:41</time>
+    <contents><target name="magecommunity"><dir name="Ralab"><dir name="Guest"><dir name="Helper"><file name="Data.php" hash="16b0e4fd585dbdfb24b0b61b1991d7a4"/></dir><dir name="Model"><file name="Config.php" hash="61ed3d30d3825c060e1169ceceef46c9"/><file name="Observer.php" hash="23fc6d5dea997438279913d385473a47"/></dir><dir name="etc"><file name="config.xml" hash="24704c1c4e5ae10abe259f8f59590b78"/><file name="system.xml" hash="a72ce5512f3d87da4a0517438b8be2da"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ralab_Guest.xml" hash="ee56818ba74d61f7833f601bdf25a741"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
