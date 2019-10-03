@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ralab_Guest",
+    "name": "OpenMageModuleFostering\/Ralab_Guest",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Adds the ability convert guest users into registered customers. ",
     "authors": [
-    {
-        "name": "Kalpesh Balar",
-        "email": "kalpeshbalar@gmail.com"
-    }
-],
+        {
+            "name": "Kalpesh Balar",
+            "email": "kalpeshbalar@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
