@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Ralab_Guest",
+    "name": "openmage-module-fostering\/ralab_guest",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Adds the ability convert guest users into registered customers. ",
     "authors": [
